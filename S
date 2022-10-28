@@ -1,0 +1,21 @@
+1.from tkinter import in     
+2.import turtle
+3.import colorsys
+4.
+5.t = turtle.Turtle()
+6.turtel.Screen().bgcolor("black")
+7.t.speed(0)
+8.n=200
+9.h=0
+10.for i in range(200):
+11.c=colorsys.hsv_to_rgb(h,1,0.8)
+12.h+=1/n
+13.t.color(c)
+13.for j in range(2):
+15.    t.left(200)
+16.   t.forward(i*3)
+17.    for k in range (3):
+18.       t.left (20)
+19.        t.backward(22)
+20.       
+21.       turtle.done()
